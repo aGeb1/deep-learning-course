@@ -1,0 +1,18 @@
+general:
+  dataset: "CIFAR-10"
+resnet:
+  N: 2
+  k: 8
+  dropout_rate: 0.3
+training:
+  adam:
+    learning_rate: 2.5e-4
+    learning_rate_drop: 0.3
+    beta_1: 0.9
+    beta_2: 0.999
+    ep: 1.e-7
+    lambda: 2.e-3
+  num_epochs: .01
+  batch_size: 128
+  validation_rate: 20
+  validation_batch_size: 30

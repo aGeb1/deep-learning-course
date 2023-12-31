@@ -1,0 +1,13 @@
+learning:
+  step_size: 0.1
+  num_iters: 3000
+  decay_rate: 0.999
+  regularization_rate: 0.005
+data:
+  num_samples: 1024
+  noise_stddev: 0.3
+model:
+  num_hidden_layers: 5
+  hidden_layer_width: 16
+  hidden_activation: 'tf.nn.relu'
+  output_activation: 'lambda x: tf.math.sin(x) ** 4'

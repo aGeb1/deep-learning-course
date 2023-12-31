@@ -1,0 +1,9 @@
+.venv
+.pytest_cache
+__pycache__
+tar_files
+articles
+hw3/data
+hw7/data
+hw4/cifar10
+hw4/cifar100
